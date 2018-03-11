@@ -74,7 +74,7 @@ Time in Sylhet
                 }
             </xmp>
             </li>
-            <li><h5><code id="c13">sudo ln -s /etc/nginx/sites-available/{{domain_name}}/ /etc/nginx/sites-enabled/ && sudo systemctl reload nginx</code> <i class="icon-copy" onclick="copyToClipboard('#c13')"></i></h5></li>
+            <li><h5><code id="c13">sudo ln -s /etc/nginx/sites-available/{{domain_name}} /etc/nginx/sites-enabled/ && sudo systemctl reload nginx</code> <i class="icon-copy" onclick="copyToClipboard('#c13')"></i></h5></li>
             <li><h5><code id="c15">cd /var/www/html/{{domain_name}}/{{git_repo}}/</code> <i class="icon-copy" onclick="copyToClipboard('#c15')"></i></h5></li>
             <li><h5><code id="c16">sudo chmod -R 777 storage && sudo chmod -R 777 public && sudo chmod -R 777 bootstrap/cache</code> <i class="icon-copy" onclick="copyToClipboard('#c16')"></i></h5></li>
             <li><h5>Finally Check if the site is okay ! ~~ <a v-bind:href="base_url" target="_blank">{{domain_name}}</a></h5></li>
